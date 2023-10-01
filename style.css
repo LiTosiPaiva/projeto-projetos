@@ -26,13 +26,8 @@
     padding: 20px 20px;
 }
 
-.topic{
-    padding: 10px 10px;
-}
-
 .banner-topo {
     background-color: #827e7f;
-    padding-top: 30px;
 }
 
 .banner-topo .img-destaque {
@@ -65,6 +60,7 @@ li{
 body ul li a{
     color: white;
     text-decoration: none;
+    padding: 2px;
     font-size: 25px;
 }
 
@@ -92,7 +88,14 @@ body ul li a{
 
 .container-projetos{
     display: flex;
-    padding: 0px 0px;
+}
+
+.projetos-video{
+    padding: 0px 0px 10px 10px;
+}
+
+.projetos-text{
+    padding: 2px 0px 10px 10px; 
 }
 
 .button-ver{
@@ -110,8 +113,22 @@ body ul li a{
     margin: 30px 0px 100px 0px;
 }
 
+.mini{
+    font-size: 10;
+}
+
 @media (max-width: 1200px) {
     .banner-topo .img-destaque{
         max-width: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-topo{
+        height: 900px;
+        padding-top: 40px;
+    }
+    .space{
+        padding: 30px 0px 20px;
     }
 }
